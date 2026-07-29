@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dodz Store - Payment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Press Start 2P', monospace;
+      background: url('https://files.catbox.moe/bxk5ir.jpg') no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 16px;
+      padding: 30px 20px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 15px #00fff0;
+    }
+
+    h1 {
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: #00fff0;
+    }
+
+    .pay-section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 15px;
+      margin: 10px 0;
+    }
+
+    .pay-section h2 {
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: #00fff0;
+    }
+
+    .pay-section p {
+      font-size: 10px;
+      color: #ffdddd;
+      word-break: break-word;
+    }
+
+    .qris-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .note {
+      font-size: 9px;
+      color: #ccc;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 10px;
+      background-color: #111;
+      color: #00fff0;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+      box-shadow: 0 0 5px #00fff0;
+    }
+
+    .btn:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💸 Metode Pembayaran</h1>
+
+    <div class="pay-section">
+      <h2>DANA</h2>
+      <p>6281515585916</p>
+    </div>
+
+    <div class="pay-section">
+      <h2>GO-PAY</h2>
+      <p>6281515585916</p>
+    </div>
+
+    <div class="pay-section">
+      <h2>QRIS</h2>
+      <img src="https://img1.pixhost.to/images/6740/615117843_malzhost.jpg" alt="QRIS" class="qris-img" />
+    </div>
+
+    <div class="note">Setelah membayar, silakan konfirmasi via TeleGram ya!</div>
+
+    <a href="index.html" class="btn">[ Back ]</a>
+  </div>
+</body>
+</html>
